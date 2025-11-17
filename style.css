@@ -1,0 +1,195 @@
+* {
+    background-color: #131313;
+    color: #ffffff;
+    
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #ffdd00;
+    background-color: #131313;
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+
+}
+header img {
+    width: 150px;
+    height: auto;
+    margin-right: auto;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+header nav a {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px 25px;
+    margin-top: 10px;
+    border: #ffd700 2px solid;
+    border-radius: 8px;
+}
+
+header nav a:hover {
+    background-color: #1a1a1a;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header nav ul li {
+    background-color: #000000;
+}
+
+
+header nav ul li a:hover {
+    color: #ffd700;
+}
+
+.container1 {
+    width: 80%;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+}
+
+.container1 img {
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.container1 p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.container1 aside {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.container1 article:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s;
+    border: #ffdd00 2px solid;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+}
+
+.container2 p {
+    padding: 1rem;
+    font-size: 18px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.container2 p {
+    margin-left: 20px;
+    font-size: 14px;
+    width: 200px;
+
+}
+
+#produtos a {
+    background-color: #ffdd00;
+    font-size: 20px;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#produtos a:hover {
+    background-color: #ffee00b2;
+}
+
+#produtos article {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#produtos article h3 {
+    margin-top: 0;
+    color: #ffdd00;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+#torneios {
+    width: 80%;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    border: #ffdd00 2px solid;
+    border-radius: 8px;
+}
+
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+footer p {
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+footer a img {
+    width: 70px;
+    height: auto;
+}
+
+#sobre h2, h3{
+    text-decoration: underline;
+}
+
+#sobre section {
+    margin-bottom: 20px;
+    border-bottom: #ffdd00 2px solid;
+
+}
+
