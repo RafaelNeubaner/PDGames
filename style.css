@@ -291,6 +291,10 @@ h1:not(.hero h1), h2, h3 {
     background-color: #ffee00;
 }
 
+#produtos button:active {
+    background-color: #ccaa00;
+}
+
 #produtos article {
     background-color: #1a1a1a;
     padding: 20px;
